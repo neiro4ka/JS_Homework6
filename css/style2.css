@@ -1,0 +1,71 @@
+.body {
+    background-color: beige;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: auto;
+    margin: 0 auto;
+    display: grid;
+    grid-template-areas: "shop bag";
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 5px;
+}
+
+.goods {    
+    height: auto;
+    border: 1px solid grey;
+    grid-area: shop;
+    padding: 15px;
+}
+
+.title {
+    text-align: center;
+    color: darkslategray;
+}
+
+.container {
+    text-align: center;
+}
+
+.newGood {
+    box-sizing: border-box;
+    width: 250px;
+    height: auto;
+    margin: auto;
+    margin-bottom: 0;
+    padding: 10px;
+    border: 1px solid grey;
+}
+
+.buy {
+    box-sizing: border-box;
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.bag {
+    text-align: center;
+    height: 500px;
+    border: 1px solid grey;
+    grid-area: bag;
+}
+
+.user_bag {
+    text-align: center;
+}
+
+.user_bag_good {
+    box-sizing: border-box;
+    width: 250px;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+}
+
+.user_summa {
+    font-weight: bold;
+    font-size: 24px;
+}
